@@ -1,0 +1,8 @@
+@media (max-width: 575px){
+    .header__bottom form input{
+        padding: 10px;
+    }
+    .header__bottom form button{
+        padding: 0 20px;
+    }
+}
