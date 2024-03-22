@@ -1,4 +1,5 @@
 @import url('header.css');
+@import url('nav.css');
 
 @font-face {
     font-family: 'Open Sans Regular';
@@ -8,4 +9,9 @@
 @font-face {
     font-family: 'Open Sans Semibold';
     src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
 }

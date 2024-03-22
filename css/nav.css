@@ -1,0 +1,84 @@
+nav .dropdown button{
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Open Sans Bold';
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #83db35 !important;
+}
+
+nav .dropdown button:hover,
+nav .dropdown button:active,
+nav .dropdown button:focus{
+    color: white !important;
+}
+
+nav .dropdown .bg-success{
+    background-color: #83db35 !important;
+}
+
+nav .dropdown button .icon{
+    margin-right: 15px;
+}
+
+nav .dropdown-menu{
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: translate3d(0px, 41px, 0px) !important;
+    padding: 0 10px;
+    border: none;
+}
+
+nav .dropdown-menu li{
+    border-bottom: 1px dotted #7e8285;
+}
+
+nav .dropdown-menu li:last-child{
+    border-bottom: none;
+}
+
+nav .dropdown-menu li a{
+    padding: 15px 10px;
+    font-size: 12px;
+    font-family: 'Open Sans Bold';
+    text-transform: uppercase;
+    color: #7e8285;
+    position: relative;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: white !important;
+}
+
+nav .dropdown-menu li a:hover:before{
+    content: '\A';
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background: #83db35;
+    display:inline-block;
+    transition: 0.75s;
+    position: absolute;
+    left: -2px;
+    top: 42%;
+}
+
+.nav-link{
+    color: #7e8285;
+    text-transform: uppercase;
+    font-family: 'Open Sans Regular';
+    font-size: 14px;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #83db35;
+}
