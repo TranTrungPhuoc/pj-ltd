@@ -1,0 +1,20 @@
+#service h3{
+    font-family: 'Open Sans Bold';
+    color: #404040;
+    font-size: 14px;
+}
+.service__content{
+    font-family: 'Open Sans Regular';
+    color: #404040;
+    font-size: 14px;
+}
+#service{
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+}
+#service .row > div:first-child{
+    border-left: 1px solid #e2e2e2;
+}
+#service .row > div{
+    border-right: 1px solid #e2e2e2;
+}

@@ -1,0 +1,24 @@
+.ads{
+    position: relative;
+}
+.ads__bg{
+    background-color: #7c7b7b;
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.8;
+}
+.ads__text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+}
+.ads__hot{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

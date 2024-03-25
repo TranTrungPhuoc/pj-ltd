@@ -1,5 +1,7 @@
 @import url('header.css');
 @import url('nav.css');
+@import url('service.css');
+@import url('content.css');
 
 @font-face {
     font-family: 'Open Sans Regular';
